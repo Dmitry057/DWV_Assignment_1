@@ -1,0 +1,3 @@
+https://dmitry057.github.io/DWV_Assignment_1/ - a hosted webpage
+https://github.com/Dmitry057/DWV_Assignment_1/ - repository
+https://github.com/Dmitry057/DWV_Assignment_1/blob/main/notebooks/net_spider.ipynb - Jupiter book
