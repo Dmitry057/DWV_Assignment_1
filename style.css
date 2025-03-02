@@ -59,18 +59,26 @@ table tr:hover {
 #search-container label {
     margin-right: 10px;
     font-size: 1.1em;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     font-weight: bold;
+    color: #fff;
 }
 
 #searchInput {
-    padding: 8px;
-    font-size: 1em;
-    width: 50%;
+    font-size: 1.2em;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 12px;
+    width: 60%;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+#searchInput:hover {
+    background-color: #fff8f0;
+    box-shadow: 0 0 5px rgba(255, 153, 51, 0.5);
 }
 
 #searchInput:focus {
     border-color: #ff6600;
     outline: none;
+    box-shadow: 0 0 5px rgba(255, 153, 51, 0.8);
 }
