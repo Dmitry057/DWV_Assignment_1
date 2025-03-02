@@ -43,7 +43,7 @@ table tr:hover {
 }
 
 #film-data {
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: #ffcc99;
     padding: 20px;
