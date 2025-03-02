@@ -43,10 +43,34 @@ table tr:hover {
 }
 
 #film-data {
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: #ffcc99;
-    padding: 20px;
+    padding: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 5px;
+}
+#search-container {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search-container label {
+    margin-right: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#searchInput {
+    padding: 8px;
+    font-size: 1em;
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchInput:focus {
+    border-color: #ff6600;
+    outline: none;
 }
